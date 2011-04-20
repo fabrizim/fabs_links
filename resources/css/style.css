@@ -1,0 +1,46 @@
+.fabs-links {
+    
+}
+
+.fabs-links h2 a{
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666;
+    padding-left: 20px;
+    cursor: pointer;
+    background: transparent url(http://www.famfamfam.com/lab/icons/silk/icons/bullet_toggle_plus.png) 0px 60% no-repeat;
+}
+.fabs-links h2 a:hover{
+    color: #333;
+}
+.fabs-links ul {
+}
+.fabs-links .links{
+    background: #fff;
+    margin-left: 0px;
+    padding: 4px 10px;
+    display: none;
+    overflow: hidden;
+}
+.fabs-links .category{
+    margin: 4px 0;
+    padding: 1px;
+}
+
+.fabs-links .category-open {
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.fabs-links .category-open h2{
+    background: #f3f3f3;
+}
+
+.fabs-links .category-open .links{
+    display: block;
+}
+.fabs-links .category-open h2 a{
+    background: transparent url(http://www.famfamfam.com/lab/icons/silk/icons/bullet_toggle_minus.png) 0px 60% no-repeat;
+}
